@@ -236,17 +236,17 @@ public class PokemonInterface extends JFrame {
         int hp;
         do {
             hp = Integer.parseInt(JOptionPane.showInputDialog("Ievadi Pokemona HP (maks 100)"));
-        } while (hp < 0 || hp > 100);
+        } while (hp < 1 || hp > 100);
 
         int dmg;
         do {
             dmg = Integer.parseInt(JOptionPane.showInputDialog("Ievadi Pokemona parasto uzbrukumu (maks 20)"));
-        } while (dmg < 0 || dmg > 20);
+        } while (dmg < 1 || dmg > 20);
 
         int ultdmg;
         do {
             ultdmg = Integer.parseInt(JOptionPane.showInputDialog("Ievadi Pokemona ultimatīvo uzbrukumu (maks 40)"));
-        } while (ultdmg < 0 || ultdmg > 40);
+        } while (ultdmg < 1 || ultdmg > 40);
 
         int def;
         do {

@@ -150,7 +150,7 @@ public class PokemonInterface extends JFrame {
         btnNewButton.setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
         panel.add(btnNewButton);
 
-        JLabel titleLabel = new JLabel("POKEMONS");
+        JLabel titleLabel = new JLabel("POKEMONI");
         titleLabel.setFont(new Font("Pokemon Solid", Font.BOLD, 50));
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBounds(84, 11, 473, 98);
@@ -310,3 +310,4 @@ public class PokemonInterface extends JFrame {
     	battlePokemons(pokemon4iki);
     }
 }
+//
